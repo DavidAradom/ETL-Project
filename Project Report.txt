@@ -1,0 +1,13 @@
+ETL Project 2
+
+* **E**xtract: 
+We used the Kaggle.com website to get both the CSV files we used for our project. We look for a large CSV files, to make sure we had plenty of data to use. Also, we wanted to make sure even if we needed to filter the file there would still be enough data. Lastly, we made sure the information on each file had similarity to make it easy to join when necessary. 
+
+* **T**ransform: 
+We started cleaning up the data in jupyter notebook, first by removing any columns that were not necessary. Then we renamed files to make sure we would be able to properly join tables. We then had to combine columns to make sure the data was the same. On one of our files the name was separated by first name and last name, and on the other file the name was combined as full name. Once we started coding in pgAdmin we discovered that pgAdmin coding in was case sensitive. So we attempted to change casing with the “upper” code. We could not get that code to run properly. Nick advised we use pgAdmin to upload the data into the table, which worked perfectly
+
+* **L**oad: 
+Why we chose the data we used:
+We wanted to show that there is a correlation between draft pick position and social media influence. With the increase in social media use we thought it would be pretty cool to show that social media is making a huge impact to sports and entertainment. We merged the two tables based on the players to see which players had the most influence based on the highest twitter followers, salary, and winning percentage.
+
+
